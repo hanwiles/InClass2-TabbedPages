@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inclass2.LabelDemo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Label"
+                   HorizontalTextAlignment="Center"
+                   FontSize="50"
+                   FontAttributes="Bold, Italic"
+                   />
+            <Label Text="Xamarin.Forms is a cross-platform natively backed UI toolkit abstraction that allows developers easily create user interfaces that can be shared across Android, iOS, and Windows Phone."
+                   VerticalOptions="CenterAndExpand"
+                   FontSize="Medium"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
